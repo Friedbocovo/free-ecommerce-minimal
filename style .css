@@ -322,7 +322,7 @@ color: #000000;
   color: #ff6f61;
 }
 
-.section4-zara {
+.section-zara {
   width: auto;
   height: 776px;
   padding-left: 839px;
@@ -330,21 +330,21 @@ color: #000000;
   background-size: 1490px 550px;
   background-repeat: no-repeat;
 }
-.section4-zara__image {
+.section-zara__image {
   width: 400px;
   transform: translate(100px, 95px);
 }
 
-.section4-zara__content {
+.section-zara__content {
   transform: translateY(0);
 }
 
-.section4-zara__content__image {
+.section-zara__content__image {
   width: 120px;
   height: 75px;
 }
 
-.section4-zara__content__text {
+.section-zara__content__text {
   width: 500px;
   color: white;
   font-family: Roboto;
@@ -354,7 +354,7 @@ color: #000000;
   text-align: left;
 }
 
-.section4-zara__content__bouton {
+.section-zara__content__bouton {
   width: Hug (200px) px;
   height: Hug (52px) px;
   padding: 19px 26px 19px 26px;
@@ -363,7 +363,7 @@ color: #000000;
   background-color: #ffffff;
 }
 
-.section4-zara__content__bouton__text {
+.section-zara__content__bouton__text {
   font-family: Roboto;
   font-size: 29px;
   font-weight: 400;
@@ -376,3 +376,4 @@ color: #000000;
   margin-right: 130px;
   margin-top: -200px;
 }
+ 
