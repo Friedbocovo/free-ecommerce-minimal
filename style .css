@@ -724,7 +724,6 @@ li {
   .section1 {
     padding-left: 20px;
     padding-right: 20px;
-    border: 1px solid red;
     height: 950px;
   }
   header {
@@ -841,7 +840,6 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid red;
     display: inline;
   }
 
@@ -883,7 +881,6 @@ li {
     margin-top: 150px;
     margin-left: 20px;
     margin-right: 20px;
-    border: 1px solid red;
   }
 
   .section3__title,
@@ -997,7 +994,6 @@ li {
 }
 
 .top-footer {
-  border: 1px solid red;
   flex-direction: column;
   justify-content:left;
   margin-left: 20px;
