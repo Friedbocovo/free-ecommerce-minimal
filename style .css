@@ -20,6 +20,10 @@ body {
   margin: 0;
 }
 
+button{
+  border: 0;
+}
+
 .section1 {
   margin: 0;
   background: #1e28320d;
