@@ -724,8 +724,9 @@ li {
   .section1 {
     padding-left: 20px;
     padding-right: 20px;
-    height: 950px;
+    height:800px;
     width: auto;
+    margin-bottom: 50px;
     
   }
   header {
@@ -782,7 +783,7 @@ li {
 
   .section1__nav__link {
     list-style: none;
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .section1__produit {
@@ -805,10 +806,15 @@ li {
   }
 
   .section1__produit__image {
-    width: 250px;
+    width: 290px;
     height: 372px;
     opacity: 0px;
     transform: translateY(-350px);
+    margin-top: 50px;
+  }
+
+  .section1__fleur{
+    display: none;
   }
   .section1__produit__content__title {
     font-size: 45px;
@@ -867,7 +873,6 @@ li {
     margin-bottom: 20px;
     font-size: 18px;
     transform: translate(0px, 0px);
-   
   }
 
   .section2__hot-category__images {
