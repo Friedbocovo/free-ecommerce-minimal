@@ -725,11 +725,14 @@ li {
     padding-left: 20px;
     padding-right: 20px;
     height: 950px;
+    width: auto;
+    
   }
   header {
     margin-left: 0px;
     margin-right: 0px;
     justify-content: space-between;
+    
   }
 
   .menu,
@@ -769,6 +772,7 @@ li {
     margin-top: 10px;
     -webkit-transition: all 700ms ease-in;
     opacity: 0;
+    display: none;
   }
 
   .active-nav {
@@ -782,28 +786,27 @@ li {
   }
 
   .section1__produit {
-    margin-left: 20px;
-    margin-right: 20px;
     text-align: center;
     display: grid;
     justify-content: center;
     text-align: center;
+    margin: 0;
   }
 
   .section1__produit__content {
-    width: 400px;
     transform: translateY(380px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    padding: 0px;
   }
 
   .section1__produit__image {
-    width: 380px;
+    width: 250px;
     height: 372px;
-    border-radius: 160px 0px 160px 0px;
     opacity: 0px;
     transform: translateY(-350px);
   }
@@ -814,14 +817,14 @@ li {
   }
 
   .section1__produit__content__paragraph {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
     text-align: center;
-    width: 100%;
+    width: auto;
   }
 
   .section1__produit__content__bouton {
-    width: 280px;
+    width: 230px;
     justify-content: center;
     align-items: center;
   }
@@ -832,31 +835,39 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: auto;
   }
 
   .section2__brands {
-    width: 400px;
+    width: 290px;
     height: 200px;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: inline;
+    
+    margin: 0;
   }
 
   .section2__brands__brand {
-    width: 170px;
-    height: 60px;
+    width: 140px;
+    height: 50px;
+    
   }
   .section2__hot-category {
     flex-direction: column;
+    
+    margin: 0;
   }
   .section2__hot-category__text {
+    padding: 0px;
     position: relative;
     width: auto;
     height: auto;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 18px;
     transform: translate(0px, 0px);
+   
   }
 
   .section2__hot-category__images {
@@ -864,43 +875,55 @@ li {
   }
 
   .section2__hot-category__images {
-    transform: translate(0px, 0px);
+    transform: translate(0);
   }
 
   .section2__hot-category__images__image1 {
-    width: 328px;
-    height: 328px;
+    width: 280px;
+    height: 280px;
   }
 
   .section2__hot-category__images__image {
-    width: 158px;
-    height: 158px;
+    width: 133px;
+    height: 133px;
   }
 
   .section3 {
     margin-top: 150px;
     margin-left: 20px;
     margin-right: 20px;
+    width: auto;
+    
   }
 
   .section3__title,
   .section-Best-sellers__title {
     font-size: 30px;
+    
   }
 
   .top-section-products {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: auto;
+    
   }
 
   .top-section-products__button {
     width: 100px;
   }
 
+  .top-section-products__categories__categorie {
+    font-size: 12px;
+    
+  }
+
   .grid-products {
     margin-left: 0px;
     margin-top: 50px;
+    width: auto;
+    
   }
 
   .grid-products__product,
@@ -910,13 +933,16 @@ li {
     align-items: center;
     padding: 0;
     margin: 0;
+    
   }
   .grid-products__product__product {
     width: 265px;
+    
   }
 
   .grid-products__product__product__donner {
     width: 265px;
+    
   }
 
   .section-zara {
@@ -924,16 +950,27 @@ li {
     padding-left: 20px;
     background-size: auto auto;
     padding-right: 20px;
-    height: 700px;
+    height: 600px;
+    width: auto;
+    
   }
 
   .section-zara__image {
-    width: 200px;
-    transform: translate(550px, 100px);
+    width: 260px;
+    transform: translate(40px, 95px);
+    
   }
 
   .section-zara__content {
-    transform: translateY(200px);
+    transform: translateY(60px);
+    
+  }
+  .section-zara__content__bouton__text {
+    font-size: 16px;
+  }
+
+  .section-zara__content__bouton {
+    padding: 10px;
   }
 
   .section-zara__content__image {
@@ -943,7 +980,8 @@ li {
 
   .section-zara__content__text {
     font-size: 18px;
-    width: 400px;
+    width: 300px;
+    
   }
 
   .section-Best-sellers {
@@ -953,13 +991,16 @@ li {
     justify-content: center;
     align-items: center;
     padding: 0;
+    width: auto;
+    
   }
 
   .section-Best-sellers__product {
     margin-top: 50px;
     transform: translateX(0px);
+    
   }
-  
+
   .section-followers {
     padding-bottom: 50px;
     margin-bottom: 65px;
@@ -967,15 +1008,19 @@ li {
     padding-left: 20px;
     margin-top: 50px;
     padding-right: 20px;
+    width: auto;
+    
   }
 
   .section-followers__title {
     font-size: 30px;
+    
   }
 
-  .section-followers__photos{
+  .section-followers__photos {
     display: inline;
     width: 300px;
+    
   }
 
   .section-followers__photos__image {
@@ -986,34 +1031,51 @@ li {
 
   .section-followers__title-subscribe {
     font-size: 30px;
-}
+    
+  }
 
-.section-followers__subscribe__email {
-  width: 350px;
-  height: 32px;
-}
+  .section-followers__subscribe__email {
+    width: 200px;
+    height: 32px;
+  }
 
-.top-footer {
-  flex-direction: column;
-  justify-content:left;
-  margin-left: 20px;
-  margin-right: 0px;
-  margin-bottom: 100px;
-  padding-left: 20px;
-  gap: 20px;
-}
+  .top-footer {
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    gap: 20px;
+    width: auto;
+    
+  }
+  .top-footer__coral__text {
+    font-size: 12px;
+    width: 270px;
+  }
 
-.bottom-footer {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+  .bottom-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+    
+    margin: 0;
+  }
 
-.bottom-footer__image{
-  width: 200px;
-}
+  .bottom-footer__image {
+    width: 100px;
+  }
 
-.bottom-footer__scroll,
-.bottom-footer__annee {
-  font-size: 12px;}
+  .flech {
+    height: 10px;
+    width: 10px;
+    transform: translateY(2px);
+  }
 
+  .bottom-footer__scroll,
+  .bottom-footer__annee {
+    font-size: 10px;
+    
+  }
 }
