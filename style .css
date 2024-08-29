@@ -726,14 +726,18 @@ li {
 /* Pour les smartphones */
 @media all and (max-width: 767px) {
   .section1 {
+    -webkit-transition: all 700ms ease-in;
     padding-left: 20px;
     padding-right: 20px;
-    height:820px;
+    -webkit-transition: all 700ms ease-in;
+    height:900px;
     width: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
   }
   header {
+    -webkit-transition: all 700ms ease-in;
+
     margin-left: 0px;
     margin-right: 0px;
     justify-content: space-between;
@@ -771,31 +775,84 @@ li {
     position: absolute;
   }
 
+  nav{
+    justify-content: center;
+    align-items: center;
+  }
+
   .section1__header__nav {
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 10px;
+    opacity: 1;
+    gap: 20px;
+    flex-direction: column;
     -webkit-transition: all 700ms ease-in;
-    opacity: 0;
+   
+  }
+
+  .display-none{
     display: none;
   }
 
   .active-nav {
     transform: translateY(10px);
     opacity: 1;
-  }
+    -webkit-transition: all 700ms ease-in;
+    display: flex;
+    margin-top: 100px;
+  }  
 
   .section1__nav__link {
     list-style: none;
-    font-size: 8px;
+    font-size: 20px;
+    color: #0e0d0df5;
+    cursor: pointer;
+  }
+  
+
+ .link1{
+    transform: translateX(-80px); 
+    -webkit-transition: all 700ms ease-in;
+    opacity: 0;
+   
   }
 
+  .active-link1{
+    display: flex;
+    -webkit-transition: all 700ms ease-in;
+    transform: translateX(0px);
+    opacity: 1;
+    
+  }
+
+  .link2{
+    -webkit-transition: all 700ms ease-in;
+    transform: translateX(80px);
+    opacity: 0;
+  }
+
+  .active-link2{
+    display: flex;
+    -webkit-transition: all 700ms ease-in;
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+
+
   .section1__produit {
+    -webkit-transition: all 700ms ease-in;
     text-align: center;
     display: grid;
     justify-content: center;
     text-align: center;
     margin: 0;
+    margin-bottom:100px;
+    transform: translateY(-300px);
+  }
+
+  .section1__produit-active{
+    transform: translateY(0px);
   }
 
   .section1__produit__content {
@@ -813,8 +870,14 @@ li {
     width: 290px;
     height: 372px;
     opacity: 0px;
+    -webkit-transition: all 700ms ease-in;
     transform: translateY(-350px);
     margin-top: 50px;
+  }
+  .section1-height-active{
+    -webkit-transition: all 700ms ease-in;
+    height: auto;
+    -webkit-transition: all 700ms ease-in;
   }
 
   .section1__fleur{
@@ -824,6 +887,7 @@ li {
     font-size: 45px;
     line-height: 45px;
     text-align: center;
+
   }
 
   .section1__produit__content__paragraph {
